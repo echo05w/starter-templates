@@ -1,18 +1,20 @@
-# Starter Templates Collection
+# 🚀 Starter Templates Collection
 
-This repository contains multiple starter templates for different stacks:
+A personal collection of ready-to-use starter templates.  
+Each folder contains a minimal **Hello World** project with the right configs, so you can start coding immediately without boilerplate setup.
 
-- [C++ Template](./cpp-template)
-- [React + Vite Template](./react-vite-template)
-- [Node.js + Express Template](./node-express-template)
-- [Python + Flask Template](./python-flask-template)
+---
 
-## Usage
-Navigate into any template folder and follow its setup instructions.
+## 📂 Templates Included
 
-Example:
+### 🟦 [C++ Template](./cpp-template)
+- Configured with **CMake** (C++17 standard)
+- Includes a simple `main.cpp`
+
+**Run:**
 ```bash
-cd node-express-template
-npm install
-npm start
-```
+cd cpp-template
+mkdir build && cd build
+cmake ..
+make
+./main
